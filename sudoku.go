@@ -21,8 +21,6 @@ func main() {
 
 	matrix := readFile()
 
-	// matrix := readStdinMatrix()
-
 	// Parse the numbers in the line
 	ints, err := parseInts(matrix)
 	if err != nil {
